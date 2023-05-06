@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding:0;
+}
+.dropdown{
+    position:absolute;
+    top: 35%;
+    left:45%;
+    display:inline-block;
+}
+.dropdown-box{
+    border:none;
+    text-align: center;
+    background-color:green;
+    padding:15px;
+    width:79px;
+    color:white;
+}
+.dropdown-container{
+     display:none;
+     position:absolute;
+}
+
+.dropdown-container a{
+      display:block;
+      background-color: #333;
+      color:white;
+      padding: 15px 30px;
+}
+.dropdown-container a:hover{
+      background:#111;
+}
+.dropdown:hover .dropdown-container{
+    display:block;
+}
